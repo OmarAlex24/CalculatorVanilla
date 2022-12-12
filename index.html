@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora con HTML, CSS y JS Vanilla</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<script src="./scripts/script.js" defer></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="calc-body glass">
+			<div class="screen-wrapper glass">
+				<div data-previous-operand class="previous-operand"></div>
+				<div data-current-operand class="current-operand"></div>
+			</div>
+
+			<div class="calc-buttons-wrapper">
+
+				<button data-clear-all class="calc-button double button-glass">C</button>
+				<button data-delete class="calc-button button-glass">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="48"
+						height="48" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none"
+						stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+						<path d="M12 10l4 4m0 -4l-4 4" />
+					</svg>
+				</button>
+				<button data-operation class="calc-button button-glass">/</button>
+
+				<button data-number class="calc-button button-glass">7</button>
+				<button data-number class="calc-button button-glass">8</button>
+				<button data-number class="calc-button button-glass">9</button>
+				<button data-operation class="calc-button button-glass">*</button>
+
+				<button data-number class="calc-button button-glass">4</button>
+				<button data-number class="calc-button button-glass">5</button>
+				<button data-number class="calc-button button-glass">6</button>
+				<button data-operation class="calc-button button-glass">+</button>
+
+				<button data-number class="calc-button button-glass">1</button>
+				<button data-number class="calc-button button-glass">2</button>
+				<button data-number class="calc-button button-glass">3</button>
+				<button data-operation class="calc-button button-glass">-</button>
+
+
+				<button data-number class="calc-button button-glass">.</button>
+				<button data-number class="calc-button button-glass">0</button>
+				<button data-equals class="calc-button button-glass double">=</button>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
