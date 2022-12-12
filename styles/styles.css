@@ -88,6 +88,14 @@ body {
 	background-color: rgba(255, 255, 255, .7);
 }
 
+
+@media (max-width: 460px) {
+	button>svg {
+		width: 80%;
+		height: 80%;
+	}
+}
+
 .double {
 	grid-column: span 2;
 }
